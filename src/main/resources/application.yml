@@ -1,1 +1,7 @@
-
+spring:
+  application:
+    name: csgo-api-tracker
+client:
+  api:
+    header_name: ${CONSUMER_HEADER_NAME}
+    header_value: ${CONSUMER_HEADER_VALUE}
